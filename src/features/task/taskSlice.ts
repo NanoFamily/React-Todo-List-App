@@ -9,7 +9,7 @@ interface TaskState {
 
 const initialState: TaskState = {
   idCount: 1,
-  tasks: [{ id: 1, title: 'Task A', completed: false }],
+  tasks: [{ id: 1, title: 'Todo A', completed: false }],
   selectedTask: { id: 0, title: '', completed: false },
   isModalOpen: false,
 };
